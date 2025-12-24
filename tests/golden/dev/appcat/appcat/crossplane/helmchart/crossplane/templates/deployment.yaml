@@ -26,7 +26,7 @@ spec:
   template:
     metadata:
       annotations:
-        function-revision: test/pr-workflowing
+        function-revision: 52b834a333bcded1d886a82e518f2fee2a33c17c
       labels:
         app: crossplane
         app.kubernetes.io/component: cloud-infrastructure-controller

@@ -4,9 +4,9 @@ metadata:
   annotations:
     argocd.argoproj.io/sync-options: SkipDryRunOnMissingResource=true
     argocd.argoproj.io/sync-wave: '-40'
-  name: function-appcat-master-test-pr-workflowing
+  name: function-appcat-master-52b834a333bcded1d886a82e518f2fee2a33c17c
 spec:
-  package: ghcr.io/mikeshootzz/appcat:test_pr-workflowing-func
+  package: ghcr.io/mikeshootzz/appcat:52b834a333bcded1d886a82e518f2fee2a33c17c-func
   packagePullPolicy: IfNotPresent
   runtimeConfigRef:
     name: function-appcat
