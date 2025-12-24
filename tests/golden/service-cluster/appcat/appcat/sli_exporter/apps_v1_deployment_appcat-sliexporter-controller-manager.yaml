@@ -27,7 +27,7 @@ spec:
           env:
             - name: KUBECONFIG
               value: /.kube/config
-          image: ghcr.io/mikeshootzz/appcat:52b834a333bcded1d886a82e518f2fee2a33c17c
+          image: ghcr.io/mikeshootzz/appcat:c7168ac78072f75db3f61d52ac0a1852f5400d20
           imagePullPolicy: IfNotPresent
           livenessProbe:
             httpGet:
