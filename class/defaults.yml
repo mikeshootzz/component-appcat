@@ -72,7 +72,7 @@ parameters:
       appcat:
         registry: ghcr.io
         repository: mikeshootzz/appcat
-        tag: test/pr
+        tag: c7168ac78072f75db3f61d52ac0a1852f5400d20
       functionAppcat:
         registry: ${appcat:images:appcat:registry}
         repository: ${appcat:images:appcat:repository}
