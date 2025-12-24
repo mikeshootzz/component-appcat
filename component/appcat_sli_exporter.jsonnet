@@ -69,10 +69,10 @@ local kustomization =
   if params.slos.enabled && vars.isSingleOrServiceCluster then
     local image = params.images.appcat;
     com.Kustomization(
-      'https://github.com/vshn/appcat/config/sliexporter/default',
+      'https://github.com/mikeshootzz/appcat/config/sliexporter/default',
       image.tag,
       {
-        'ghcr.io/vshn/appcat': {
+        'ghcr.io/mikeshootzz/appcat': {
           newTag: common.GetAppCatImageTag(),
           newName: '%(registry)s/%(repository)s' % image,
         },
